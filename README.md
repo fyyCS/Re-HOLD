@@ -1,6 +1,6 @@
 # Re-HOLD
 
-This is the repository that contains source code for the CVPR25 paper Re-HOLD.
+This is the repository that contains source code for the CVPR25 paper [Re-HOLD](https://fyycs.github.io/Re-HOLD.github.io/).
 
 If you find Re-HOLD useful for your work please cite:
 ```
