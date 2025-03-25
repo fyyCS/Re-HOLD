@@ -69,6 +69,9 @@
               <a href="https://scholar.google.com/citations?hl=zh-CN&user=pnuQ5UsAAAAJ&view_op=list_works&sortby=pubdate">Haocheng Feng</a><sup>3</sup>
             </span>
             <span class="author-block">
+              Errui Ding<sup>3</sup>,
+            </span>
+            <span class="author-block">
               <a href="https://yu-wu.net/">Yu Wu</a><sup>1*</sup>
             </span>
             <span class="author-block">
@@ -101,8 +104,12 @@
       </img>
       
       <h2 class="subtitle has-text-centered">
-        The overview of our proposed framework Re-HOLD. 
+        <b>The overview of our proposed framework Re-HOLD.</b>
       </h2>
+    <p>We propose a two-branch framework that consists of a Reference U-Net and a Denoising U-Net. 
+        The Reference U-Net takes a reference object image for object texture encoding while the denoising one takes noise latent and layout guidance as input for diffusion processing. 
+        To enhance the quality of HOI generation, we adopt the HOI Restoration Module and a hand memory bank for hand information restoration. 
+        The object memory bank is designed to store fine-grained object information.</p>
 
   </div>
 </section>
@@ -162,7 +169,10 @@
           <!-- <iframe width="800" height="480"
            src="https://www.youtube.com/watch?v=5eB5zj3xD4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
           </iframe> -->
-          <iframe width="784" height="441" src="https://www.youtube.com/embed/5eB5zj3xD4I?si=Sib8MJOc-0IhCxha" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="784" height="441" src="https://www.youtube.com/embed/P394rcVLEn0?si=kn3_Va4nF38vwmT4" title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
           <!-- </video> -->
         <!-- </div> -->
       </div>
@@ -182,8 +192,8 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{fan2025ReHOLD,
-  author    = {Yinying Fan, Quanwei Yang, Kaisiyuan Wang, Hang Zhou, Yingying Li, Haocheng Feng, Yu Wu, Jingdong Wang.},
-  title     = {Re-HOLD: Video Hand Object Interaction Reenactment via adaptive Layout-instructed Diffusion Model.},
+  author    = {Yinying Fan, Quanwei Yang, Kaisiyuan Wang, Hang Zhou, Yingying Li, Haocheng Feng, Errui Ding, Yu Wu, Jingdong Wang.},
+  title     = {Re-HOLD: Video Hand Object Interaction Reenactment via adaptive Layout-instructed Diffusion Model},
   journal   = {CVPR},
   year      = {2025},
 }</code></pre>
@@ -195,10 +205,10 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./static/videos/cvpr25.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/fyyCS" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
