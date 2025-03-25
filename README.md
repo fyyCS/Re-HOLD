@@ -1,6 +1,10 @@
 # Re-HOLD
 
+<<<<<<< HEAD
 This is the project page for the CVPR25 paper [Re-HOLD](https://fyycs.github.io/Re-HOLD/).
+=======
+This is the project page for the CVPR25 paper [Re-HOLD](https://fyycs.github.io/Re-HOLD).
+>>>>>>> 2b3bd0d8f3d0594cf57202e6db4c4f99af4520f0
 
 If you find Re-HOLD useful for your work please cite:
 ```
