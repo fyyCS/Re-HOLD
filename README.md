@@ -5,7 +5,7 @@ This is the project page for the CVPR25 paper [Re-HOLD](https://fyycs.github.io/
 If you find Re-HOLD useful for your work please cite:
 ```
 @article{fan2025ReHOLD,
-  author    = {Yinying Fan, Quanwei Yang, Kaisiyuan Wang, Hang Zhou, Yingying Li, Haocheng Feng, Yu Wu, Jingdong Wang.},
+  author    = {Yinying Fan, Quanwei Yang, Kaisiyuan Wang, Hang Zhou, Yingying Li, Haocheng Feng, Errui Ding, Yu Wu, Jingdong Wang.},
   title     = {Re-HOLD: Video Hand Object Interaction Reenactment via adaptive Layout-instructed Diffusion Model},
   journal   = {CVPR},
   year      = {2025},
